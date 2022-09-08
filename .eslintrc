@@ -1,0 +1,15 @@
+{
+  "plugins": ["prettier"],
+
+  "extends": ["airbnb", "plugin:prettier/recommended"],
+
+  "env": {
+    "browser": true,
+    "node": true
+  },
+
+  "ignorePatterns": ["node_modules/"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
